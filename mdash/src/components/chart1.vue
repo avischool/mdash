@@ -1,6 +1,6 @@
 <template>
   <div id="sector1">
-    <h1>Blah</h1>
+    <h1>Month-by-Month</h1>
     <apexchart
       width="170%"
       height="100%"

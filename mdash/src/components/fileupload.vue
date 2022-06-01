@@ -30,6 +30,7 @@ export default {
         const file = e.target.result;
         const lines = file.split(/\r\n|\n/);
         this.bardata = lines.join("\n");
+        console.log(this.bardata);
       };
 
       reader.onerror = (e) => alert(e.target.error.name);

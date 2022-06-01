@@ -2,6 +2,7 @@
   <div id="app">
     <h1>Welcome to MDash</h1>
     <h3>Add your updated report here</h3>
+    <h3>{{ bardata }}</h3>
     <fileupload />
     <div id="container">
       <carousel :items-to-show="1">
@@ -41,6 +42,7 @@ export default {
     Pagination,
     Navigation,
   },
+  props: ["bardata"],
   // data: function () {
   //   return { child_component: "table1" };
   // },
